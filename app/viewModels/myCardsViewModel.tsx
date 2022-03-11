@@ -5,7 +5,7 @@ interface CardsModel {
   navigation: any;
 }
 
-const MyCardsModel = (props: CardsModel) => {
+const MyCardsViewModel = (props: CardsModel) => {
   const {navigation} = props;
   const [select, setSelect] = useState(1);
   return (
@@ -17,4 +17,4 @@ const MyCardsModel = (props: CardsModel) => {
   );
 };
 
-export default MyCardsModel;
+export default MyCardsViewModel;

@@ -5,7 +5,7 @@ interface CheckoutProps {
   navigation: any;
 }
 
-const CheckoutModel = (props: CheckoutProps) => {
+const CheckoutViewModel = (props: CheckoutProps) => {
   const {navigation} = props;
   const [select, setSelect] = useState(0);
   return (
@@ -17,4 +17,4 @@ const CheckoutModel = (props: CheckoutProps) => {
   );
 };
 
-export default CheckoutModel;
+export default CheckoutViewModel;

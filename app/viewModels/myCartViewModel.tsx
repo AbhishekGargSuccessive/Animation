@@ -5,9 +5,9 @@ interface CartProps {
   navigation: any;
 }
 
-const MyCartModel = (props: CartProps) => {
+const MyCartViewModel = (props: CartProps) => {
   const {navigation} = props;
   return <MyCartScreen navigation={navigation} />;
 };
 
-export default MyCartModel;
+export default MyCartViewModel;

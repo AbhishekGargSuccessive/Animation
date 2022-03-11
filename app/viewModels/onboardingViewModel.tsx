@@ -5,7 +5,7 @@ interface Modelprops {
   navigation: any;
 }
 
-const OnboardingModel = (props: Modelprops) => {
+const OnboardingViewModel = (props: Modelprops) => {
   const {navigation} = props;
   const flatRef = useRef<any | null>(null);
   const scrollTo = (data: any) => {
@@ -20,4 +20,4 @@ const OnboardingModel = (props: Modelprops) => {
   );
 };
 
-export default OnboardingModel;
+export default OnboardingViewModel;

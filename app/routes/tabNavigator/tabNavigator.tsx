@@ -1,10 +1,10 @@
 import React from 'react';
 import {createBottomTabNavigator} from '@react-navigation/bottom-tabs';
 import {
-  HomeModel,
-  MyCartModel,
-  NotificationTabModel,
-  MyOrdersModel,
+  HomeViewModel,
+  MyCartViewModel,
+  NotificationTabViewModel,
+  MyOrdersViewModel,
 } from '../../viewModels';
 import {Image, Text, View} from 'react-native';
 import {COLORS, constants, icons} from '../../constants';
@@ -24,7 +24,7 @@ const MainTab = ({navigation}: any) => {
       }}>
       <Tab.Screen
         name="Home"
-        component={HomeModel}
+        component={HomeViewModel}
         options={{
           tabBarIcon: ({focused}) => {
             return (
@@ -59,7 +59,7 @@ const MainTab = ({navigation}: any) => {
       />
       <Tab.Screen
         name="Search"
-        component={HomeModel}
+        component={HomeViewModel}
         options={{
           tabBarIcon: ({focused}) => {
             return (
@@ -94,7 +94,7 @@ const MainTab = ({navigation}: any) => {
       />
       <Tab.Screen
         name="MyCart"
-        component={MyCartModel}
+        component={MyCartViewModel}
         options={{
           tabBarIcon: ({focused}) => {
             return (
@@ -130,7 +130,7 @@ const MainTab = ({navigation}: any) => {
       />
       <Tab.Screen
         name="Favourite"
-        component={MyOrdersModel}
+        component={MyOrdersViewModel}
         options={{
           tabBarIcon: ({focused}) => {
             return (
@@ -165,7 +165,7 @@ const MainTab = ({navigation}: any) => {
       />
       <Tab.Screen
         name="Notification"
-        component={NotificationTabModel}
+        component={NotificationTabViewModel}
         options={{
           tabBarIcon: ({focused}) => {
             return (

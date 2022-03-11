@@ -1,6 +1,5 @@
 import React from 'react';
 import {View, TouchableOpacity, Image, Text} from 'react-native';
-import {icons, constants, images} from '../../constants';
 import styles from './styles';
 
 interface HeaderProps {

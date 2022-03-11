@@ -1,13 +1,13 @@
 import React from 'react';
 import OTPScreen from '../views/otp/otpScreen';
 
-interface OTPModel {
+interface OTPModelProps {
   navigation: any;
 }
 
-const OTPModel = (props: OTPModel) => {
+const OTPViewModel = (props: OTPModelProps) => {
   const {navigation} = props;
   return <OTPScreen navigation={navigation} />;
 };
 
-export default OTPModel;
+export default OTPViewModel;

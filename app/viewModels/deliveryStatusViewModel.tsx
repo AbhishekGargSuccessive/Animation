@@ -5,9 +5,9 @@ interface DeliveryModel {
   navigation: any;
 }
 
-const DeliveryStatusModel = (props: DeliveryModel) => {
+const DeliveryStatusViewModel = (props: DeliveryModel) => {
   const {navigation} = props;
   return <DeliveryStatusScreen navigation={navigation} />;
 };
 
-export default DeliveryStatusModel;
+export default DeliveryStatusViewModel;

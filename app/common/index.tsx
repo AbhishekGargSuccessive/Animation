@@ -1,7 +1,7 @@
 import HeaderLogo from './headerLogo/headerLogo';
-import TextInputs from './TextInput/TextInput';
-import TextPasswords from './TextPassword/TextPassword';
-import HeaderComponents from './headerComponent';
-import BackHeader from './backHeader';
+import TextInputs from './textInput/textInput';
+import TextPasswords from './TextPassword/textPassword';
+import HeaderComponents from './headerComponent/headerComponent';
+import HeaderCart from './headerCart/headerCart';
 
-export {HeaderLogo, TextInputs, TextPasswords, HeaderComponents, BackHeader};
+export {HeaderLogo, TextInputs, TextPasswords, HeaderComponents, HeaderCart};

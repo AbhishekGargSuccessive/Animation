@@ -5,9 +5,9 @@ interface SettingsProps {
   navigation: any;
 }
 
-const SettingsModel = (props: SettingsProps) => {
+const SettingsViewModel = (props: SettingsProps) => {
   const {navigation} = props;
   return <SettingScreen navigation={navigation} />;
 };
 
-export default SettingsModel;
+export default SettingsViewModel;

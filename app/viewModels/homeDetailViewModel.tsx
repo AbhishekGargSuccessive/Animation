@@ -5,7 +5,7 @@ interface DetailProps {
   navigation: any;
 }
 
-const DetailModel = (props: DetailProps) => {
+const HomeDetailViewModel = (props: DetailProps) => {
   const {navigation} = props;
   const [counter, setCounter] = useState(1);
   const [size, setSize] = useState(0);
@@ -20,4 +20,4 @@ const DetailModel = (props: DetailProps) => {
   );
 };
 
-export default DetailModel;
+export default HomeDetailViewModel;

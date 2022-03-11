@@ -1,47 +1,47 @@
-import OnboardingModel from './OnboardingModel';
-import SignInModel from './SignInModel';
-import SignUpModel from './SignUpModel';
-import OTPModel from './OTPModel';
-import PasswordModel from './PasswordModel';
-import HomeModel from './HomeModel';
-import DetailModel from './Home-DetailModel';
-import MyCartModel from './MyCartModel';
-import MyCardsModel from './MyCardsModel';
-import AddNewCardModel from './AddNewCardModel';
-import CheckoutModel from './CheckoutModel';
-import SuccessModel from './SuccessModel';
-import DeliveryStatusModel from './DeliveryStatusModel';
-import MyCouponModel from './MyCouponModel';
-import NotificationModel from './NotificationModel';
-import NotificationTabModel from './NotificationTabModel';
-import SettingsModel from './SettingsModel';
-import ChangePasswordModel from './ChangePasswordModel';
-import MyOrdersModel from './MyOrdersModel';
-import RiderReviewModel from './RiderReviewModel';
-import MyAccountModel from './MyAccountModel';
-import EditAccountModel from './EditAccountModel';
+import OnboardingViewModel from './onboardingViewModel';
+import SignInViewModel from './signInViewModel';
+import SignUpViewModel from './signUpViewModel';
+import OTPViewModel from './otpViewModel';
+import PasswordViewModel from './passwordViewModel';
+import HomeViewModel from './homeViewModel';
+import DetailViewModel from './homeDetailViewModel';
+import MyCartViewModel from './myCartViewModel';
+import MyCardsViewModel from './myCardsViewModel';
+import AddNewCardViewModel from './addNewCardViewModel';
+import CheckoutViewModel from './checkoutViewModel';
+import SuccessViewModel from './successViewModel';
+import DeliveryStatusViewModel from './deliveryStatusViewModel';
+import MyCouponViewModel from './myCouponViewModel';
+import NotificationViewModel from './notificationViewModel';
+import NotificationTabViewModel from './notificationTabViewModel';
+import SettingsViewModel from './settingsViewModel';
+import ChangePasswordViewModel from './changePasswordViewModel';
+import MyOrdersViewModel from './myOrdersViewModel';
+import RiderReviewViewModel from './riderReviewViewModel';
+import MyAccountViewModel from './myAccountViewModel';
+import EditAccountViewModel from './editAccountViewModel';
 
 export {
-  OnboardingModel,
-  SignInModel,
-  SignUpModel,
-  OTPModel,
-  PasswordModel,
-  HomeModel,
-  DetailModel,
-  MyCartModel,
-  MyCardsModel,
-  AddNewCardModel,
-  CheckoutModel,
-  SuccessModel,
-  DeliveryStatusModel,
-  MyCouponModel,
-  NotificationModel,
-  NotificationTabModel,
-  SettingsModel,
-  ChangePasswordModel,
-  MyOrdersModel,
-  RiderReviewModel,
-  MyAccountModel,
-  EditAccountModel,
+  OnboardingViewModel,
+  SignInViewModel,
+  SignUpViewModel,
+  OTPViewModel,
+  PasswordViewModel,
+  HomeViewModel,
+  DetailViewModel,
+  MyCartViewModel,
+  MyCardsViewModel,
+  AddNewCardViewModel,
+  CheckoutViewModel,
+  SuccessViewModel,
+  DeliveryStatusViewModel,
+  MyCouponViewModel,
+  NotificationViewModel,
+  NotificationTabViewModel,
+  SettingsViewModel,
+  ChangePasswordViewModel,
+  MyOrdersViewModel,
+  RiderReviewViewModel,
+  MyAccountViewModel,
+  EditAccountViewModel,
 };

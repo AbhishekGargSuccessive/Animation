@@ -5,9 +5,9 @@ interface EditProps {
   navigation: any;
 }
 
-const EditAccountModel = (props: EditProps) => {
+const EditAccountViewModel = (props: EditProps) => {
   const {navigation} = props;
   return <EditAccountScreen navigation={navigation} />;
 };
 
-export default EditAccountModel;
+export default EditAccountViewModel;

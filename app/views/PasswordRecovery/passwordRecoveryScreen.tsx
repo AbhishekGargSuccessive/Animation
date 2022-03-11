@@ -9,7 +9,7 @@ interface PasswordProps {
   navigation: any;
 }
 
-const PasswordScreen = (props: PasswordProps) => {
+const PasswordRecoveryScreen = (props: PasswordProps) => {
   const {navigation} = props;
   return (
     <SafeAreaView style={styles.container}>
@@ -42,4 +42,4 @@ const PasswordScreen = (props: PasswordProps) => {
   );
 };
 
-export default PasswordScreen;
+export default PasswordRecoveryScreen;

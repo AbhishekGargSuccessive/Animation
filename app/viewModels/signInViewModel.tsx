@@ -1,12 +1,12 @@
 import React, {useRef, useState} from 'react';
 import SignIn from '../views/SignIn/signInScreen';
-import {EmailValidation, PasswordValidation} from '../config/validation';
+import {EmailValidation, PasswordValidation} from '../constants/validation';
 
-interface SignInModel {
+interface SignInProps {
   navigation: any;
 }
 
-const SignInModel = (props: SignInModel) => {
+const SignInViewModel = (props: SignInProps) => {
   const {navigation} = props;
   const [isEnabled, setIsEnabled] = useState(false);
   const toggleSwitch = () => setIsEnabled(previousState => !previousState);
@@ -45,4 +45,4 @@ const SignInModel = (props: SignInModel) => {
   );
 };
 
-export default SignInModel;
+export default SignInViewModel;

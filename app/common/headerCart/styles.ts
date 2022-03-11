@@ -2,18 +2,14 @@ import {StyleSheet} from 'react-native';
 import {COLORS, FONTS, SIZES} from '../../constants';
 
 const styles = StyleSheet.create({
-  colorcontainer: {
-    flex: 1,
-    backgroundColor: COLORS.white,
-  },
   Container: {
     flexDirection: 'row',
     alignItems: 'center',
     justifyContent: 'space-between',
-    paddingVertical: 10,
-    marginHorizontal: 20,
+    marginVertical: 10,
+    paddingHorizontal: 20,
   },
-  menuIcon: {
+  backButtonContainer: {
     borderRadius: SIZES.radius,
     borderWidth: 1,
     height: 40,
@@ -27,20 +23,21 @@ const styles = StyleSheet.create({
     width: 25,
     height: 25,
   },
-  homeText: {
-    fontFamily: 'Poppins-SemiBold',
-    fontSize: 19,
+  HeaderText: {
+    fontSize: 18,
     color: COLORS.black,
+    fontFamily: 'Poppins-SemiBold',
   },
-  profileIconRadius: {
+  cartButtonContainer: {
+    backgroundColor: COLORS.pink,
     borderRadius: SIZES.radius,
-    alignItems: 'center',
-    justifyContent: 'center',
+    padding: 8,
   },
-  profileIcon: {
-    height: 40,
-    width: 40,
-    borderRadius: SIZES.radius,
+  cartIcon: {
+    resizeMode: 'contain',
+    height: 25,
+    width: 25,
+    tintColor: COLORS.black,
   },
 });
 export default styles;

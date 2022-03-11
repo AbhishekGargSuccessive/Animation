@@ -5,9 +5,9 @@ interface Props {
   navigation: any;
 }
 
-const NotificationTabModel = (props: Props) => {
+const NotificationTabViewModel = (props: Props) => {
   const {navigation} = props;
   return <NotificationTabScreen navigation={navigation} />;
 };
 
-export default NotificationTabModel;
+export default NotificationTabViewModel;

@@ -1,13 +1,7 @@
-import React, {useState} from 'react';
-import {
-  Modal,
-  SafeAreaView,
-  Text,
-  TouchableOpacity,
-  View,
-} from 'react-native';
-import {BackHeader} from '../../common';
-import {COLORS, constants, dummyData, icons} from '../../constants';
+import React from 'react';
+import {SafeAreaView, Text, TouchableOpacity, View} from 'react-native';
+import {HeaderCart} from '../../common';
+import {constants, dummyData, icons} from '../../constants';
 import RenderItem from './renderItem';
 import RenderHiddenItem from './renderHiddenItem';
 import {SwipeListView} from 'react-native-swipe-list-view';
@@ -21,7 +15,7 @@ const MyCartScreen = (props: CartProps) => {
   const {navigation} = props;
   return (
     <SafeAreaView style={styles.container}>
-      <BackHeader
+       <HeaderCart
         navigation={navigation}
         HeaderText={constants.keywords.My_Cart}
         SecondImage={icons.cart}

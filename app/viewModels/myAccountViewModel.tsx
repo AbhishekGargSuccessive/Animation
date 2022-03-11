@@ -5,9 +5,9 @@ interface AcccountProps {
   navigation: any;
 }
 
-const MyAccountModel = (props: AcccountProps) => {
+const MyAccountViewModel = (props: AcccountProps) => {
   const {navigation} = props;
   return <MyAccountScreen navigation={navigation} />;
 };
 
-export default MyAccountModel;
+export default MyAccountViewModel;

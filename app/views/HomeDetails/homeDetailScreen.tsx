@@ -1,4 +1,4 @@
-import React, {useState} from 'react';
+import React from 'react';
 import {
   FlatList,
   Image,
@@ -8,7 +8,7 @@ import {
   TouchableOpacity,
   View,
 } from 'react-native';
-import {BackHeader, HeaderComponents} from '../../common';
+import {HeaderCart} from '../../common';
 import {COLORS, constants, dummyData, icons, images} from '../../constants';
 import SizeRenderItem from './sizesRenderItem';
 import styles from './styles';
@@ -25,7 +25,7 @@ const DetailScreen = (props: DetailProps) => {
   const {navigation, counter, setCounter, size, setSize} = props;
   return (
     <SafeAreaView style={styles.backcontainer}>
-      <BackHeader
+      <HeaderCart
         navigation={navigation}
         HeaderText={constants.keywords.Details}
         SecondImage={icons.cart}

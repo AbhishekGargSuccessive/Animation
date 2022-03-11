@@ -1,15 +1,15 @@
 import React, {useState} from 'react';
-import MyOrderScreen from '../views/MyOrders/myOrderScreen';
+import MyCouponScreen from '../views/MyCoupon/myCouponScreen';
 
-interface OrderProps {
+interface CouponModel {
   navigation: any;
 }
 
-const MyOrdersModel = (props: OrderProps) => {
+const MyCouponViewModel = (props: CouponModel) => {
   const {navigation} = props;
   const [select, setSelect] = useState(true);
   return (
-    <MyOrderScreen
+    <MyCouponScreen
       navigation={navigation}
       select={select}
       setSelect={setSelect}
@@ -17,4 +17,4 @@ const MyOrdersModel = (props: OrderProps) => {
   );
 };
 
-export default MyOrdersModel;
+export default MyCouponViewModel;

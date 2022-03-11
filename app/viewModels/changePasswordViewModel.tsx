@@ -5,9 +5,9 @@ interface Props {
   navigation: any;
 }
 
-const ChangePasswordModel = (props: Props) => {
+const ChangePasswordViewModel = (props: Props) => {
   const {navigation} = props;
   return <ChangePasswordScreen navigation={navigation} />;
 };
 
-export default ChangePasswordModel;
+export default ChangePasswordViewModel;

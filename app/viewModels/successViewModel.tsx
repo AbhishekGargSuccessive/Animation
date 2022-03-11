@@ -5,9 +5,9 @@ interface SuccessProps {
   navigation: any;
 }
 
-const SuccessModel = (props: SuccessProps) => {
+const SuccessViewModel = (props: SuccessProps) => {
   const {navigation} = props;
   return <SuccessScreen navigation={navigation} />;
 };
 
-export default SuccessModel;
+export default SuccessViewModel;

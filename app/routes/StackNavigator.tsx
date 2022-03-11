@@ -3,26 +3,26 @@ import {NavigationContainer} from '@react-navigation/native';
 import {createNativeStackNavigator} from '@react-navigation/native-stack';
 import MainDrawer from './drawerNavigator';
 import {
-  OnboardingModel,
-  SignInModel,
-  SignUpModel,
-  OTPModel,
-  PasswordModel,
-  DetailModel,
-  MyCartModel,
-  MyCardsModel,
-  AddNewCardModel,
-  CheckoutModel,
-  SuccessModel,
-  DeliveryStatusModel,
-  MyCouponModel,
-  NotificationModel,
-  SettingsModel,
-  ChangePasswordModel,
-  MyOrdersModel,
-  RiderReviewModel,
-  MyAccountModel,
-  EditAccountModel,
+  OnboardingViewModel,
+  SignInViewModel,
+  SignUpViewModel,
+  OTPViewModel,
+  PasswordViewModel,
+  DetailViewModel,
+  MyCartViewModel,
+  MyCardsViewModel,
+  AddNewCardViewModel,
+  CheckoutViewModel,
+  SuccessViewModel,
+  DeliveryStatusViewModel,
+  MyCouponViewModel,
+  NotificationViewModel,
+  SettingsViewModel,
+  ChangePasswordViewModel,
+  MyOrdersViewModel,
+  RiderReviewViewModel,
+  MyAccountViewModel,
+  EditAccountViewModel,
 } from '../viewModels';
 
 type Abc = {
@@ -56,27 +56,30 @@ const MainStack = () => {
   return (
     <NavigationContainer>
       <Stack.Navigator screenOptions={{headerShown: false}}>
-        <Stack.Screen name="Onboarding" component={OnboardingModel} />
-        <Stack.Screen name="SignIn" component={SignInModel} />
-        <Stack.Screen name="SignUp" component={SignUpModel} />
-        <Stack.Screen name="OTP" component={OTPModel} />
-        <Stack.Screen name="Password" component={PasswordModel} />
-        <Stack.Screen name="Detail" component={DetailModel} />
-        <Stack.Screen name="MyCart" component={MyCartModel} />
-        <Stack.Screen name="MyCards" component={MyCardsModel} />
-        <Stack.Screen name="AddNewCard" component={AddNewCardModel} />
-        <Stack.Screen name="Checkout" component={CheckoutModel} />
-        <Stack.Screen name="Success" component={SuccessModel} />
+        <Stack.Screen name="Onboarding" component={OnboardingViewModel} />
+        <Stack.Screen name="SignIn" component={SignInViewModel} />
+        <Stack.Screen name="SignUp" component={SignUpViewModel} />
+        <Stack.Screen name="OTP" component={OTPViewModel} />
+        <Stack.Screen name="Password" component={PasswordViewModel} />
+        <Stack.Screen name="Detail" component={DetailViewModel} />
+        <Stack.Screen name="MyCart" component={MyCartViewModel} />
+        <Stack.Screen name="MyCards" component={MyCardsViewModel} />
+        <Stack.Screen name="AddNewCard" component={AddNewCardViewModel} />
+        <Stack.Screen name="Checkout" component={CheckoutViewModel} />
+        <Stack.Screen name="Success" component={SuccessViewModel} />
         <Stack.Screen name="Drawer" component={MainDrawer} />
-        <Stack.Screen name="Delivery" component={DeliveryStatusModel} />
-        <Stack.Screen name="Coupon" component={MyCouponModel} />
-        <Stack.Screen name="Notification" component={NotificationModel} />
-        <Stack.Screen name="Settings" component={SettingsModel} />
-        <Stack.Screen name="ChangePassword" component={ChangePasswordModel} />
-        <Stack.Screen name="MyOrders" component={MyOrdersModel} />
-        <Stack.Screen name="RiderReview" component={RiderReviewModel} />
-        <Stack.Screen name="MyAccount" component={MyAccountModel} />
-        <Stack.Screen name="EditAccount" component={EditAccountModel} />
+        <Stack.Screen name="Delivery" component={DeliveryStatusViewModel} />
+        <Stack.Screen name="Coupon" component={MyCouponViewModel} />
+        <Stack.Screen name="Notification" component={NotificationViewModel} />
+        <Stack.Screen name="Settings" component={SettingsViewModel} />
+        <Stack.Screen
+          name="ChangePassword"
+          component={ChangePasswordViewModel}
+        />
+        <Stack.Screen name="MyOrders" component={MyOrdersViewModel} />
+        <Stack.Screen name="RiderReview" component={RiderReviewViewModel} />
+        <Stack.Screen name="MyAccount" component={MyAccountViewModel} />
+        <Stack.Screen name="EditAccount" component={EditAccountViewModel} />
       </Stack.Navigator>
     </NavigationContainer>
   );

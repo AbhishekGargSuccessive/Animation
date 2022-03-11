@@ -4,13 +4,13 @@ import {
   EmailValidation,
   UsernameValidation,
   PasswordValidation,
-} from '../config/validation';
+} from '../constants/validation';
 
-interface SignUpModel {
+interface SignUpModelProps {
   navigation: any;
 }
 
-const SignUpModel = (props: SignUpModel) => {
+const SignUpViewModel = (props: SignUpModelProps) => {
   const {navigation} = props;
 
   const [email, setEmail] = useState('');
@@ -54,4 +54,4 @@ const SignUpModel = (props: SignUpModel) => {
   );
 };
 
-export default SignUpModel;
+export default SignUpViewModel;

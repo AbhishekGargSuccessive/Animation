@@ -7,7 +7,7 @@ interface HomeModelProps {
   navigation: any;
 }
 
-const HomeModel = (props: HomeModelProps) => {
+const HomeViewModel = (props: HomeModelProps) => {
   const {navigation} = props;
   const [filter, setFilter] = useState(false);
   const [select, setSelect] = useState(0);
@@ -88,4 +88,4 @@ const HomeModel = (props: HomeModelProps) => {
   );
 };
 
-export default HomeModel;
+export default HomeViewModel;

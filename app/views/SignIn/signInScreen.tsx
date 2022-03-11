@@ -1,4 +1,4 @@
-import React, {useState} from 'react';
+import React from 'react';
 import {SafeAreaView, ScrollView, Switch, TouchableOpacity} from 'react-native';
 import {Image, Text, View} from 'react-native-animatable';
 import {HeaderLogo, TextInputs, TextPasswords} from '../../common';
