@@ -2,6 +2,7 @@ import React from 'react';
 import {NavigationContainer} from '@react-navigation/native';
 import {createNativeStackNavigator} from '@react-navigation/native-stack';
 import MainDrawer from './drawerNavigator';
+import SplashScreen from '../views/Splash/splashScreen';
 import {
   OnboardingViewModel,
   SignInViewModel,
@@ -26,6 +27,7 @@ import {
 } from '../viewModels';
 
 type Abc = {
+  Splash: Function;
   Onboarding: Function;
   SignIn: Function;
   SignUp: Function;
@@ -56,6 +58,7 @@ const MainStack = () => {
   return (
     <NavigationContainer>
       <Stack.Navigator screenOptions={{headerShown: false}}>
+        <Stack.Screen name="Splash" component={SplashScreen} />
         <Stack.Screen name="Onboarding" component={OnboardingViewModel} />
         <Stack.Screen name="SignIn" component={SignInViewModel} />
         <Stack.Screen name="SignUp" component={SignUpViewModel} />
