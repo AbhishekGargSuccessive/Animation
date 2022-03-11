@@ -1,5 +1,5 @@
 import React, {useState} from 'react';
-import CheckoutScreen from '../views/Checkout';
+import CheckoutScreen from '../views/Checkout/checkoutScreen';
 
 interface CheckoutProps {
   navigation: any;

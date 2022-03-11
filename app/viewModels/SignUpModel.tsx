@@ -1,5 +1,5 @@
 import React, {useRef, useState} from 'react';
-import SignUpScreen from '../views/SignUp/SignUp';
+import SignUpScreen from '../views/SignUp/signUpScreen';
 import {
   EmailValidation,
   UsernameValidation,

@@ -1,5 +1,5 @@
 import React, {useRef, useState} from 'react';
-import SignIn from '../views/SignIn/SignIn';
+import SignIn from '../views/SignIn/signInScreen';
 import {EmailValidation, PasswordValidation} from '../config/validation';
 
 interface SignInModel {

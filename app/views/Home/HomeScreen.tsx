@@ -14,8 +14,8 @@ import {
 import {COLORS, constants, dummyData, icons, SIZES} from '../../constants';
 import MultiSlider from '@ptomasroos/react-native-multi-slider';
 import CategoryRenderItem from './categoryRenderItem';
-import FoodMennuRenderItem from './FoodMenuRenderItem';
-import FooterFoodMenu from './FooterRenderItem';
+import FoodMennuRenderItem from './foodMenuRenderItem';
+import FooterFoodMenu from './footerRenderItem';
 import {HeaderComponents} from '../../common';
 import styles from './styles';
 
@@ -118,7 +118,7 @@ const HomeScreen = (props: HomeScreen) => {
   } = props;
 
   return (
-    <SafeAreaView style={{flex: 1}}>
+    <SafeAreaView style={styles.flex}>
       <Modal
         animationType="slide"
         transparent={true}

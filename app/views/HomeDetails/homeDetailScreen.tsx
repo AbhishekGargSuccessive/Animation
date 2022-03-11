@@ -10,7 +10,7 @@ import {
 } from 'react-native';
 import {BackHeader, HeaderComponents} from '../../common';
 import {COLORS, constants, dummyData, icons, images} from '../../constants';
-import SizeRenderItem from './SizesRenderItem';
+import SizeRenderItem from './sizesRenderItem';
 import styles from './styles';
 
 interface DetailProps {

@@ -1,5 +1,5 @@
 import React from 'react';
-import ChangePasswordScreen from '../views/Change_Password';
+import ChangePasswordScreen from '../views/ChangePassword/changePasswordScreen';
 
 interface Props {
   navigation: any;

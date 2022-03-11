@@ -1,5 +1,5 @@
 import React from 'react';
-import NotificationTabScreen from '../views/Notification_Tab';
+import NotificationTabScreen from '../views/NotificationTab/notificationTab';
 
 interface Props {
   navigation: any;

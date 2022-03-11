@@ -1,5 +1,5 @@
 import React, {useState} from 'react';
-import DetailScreen from '../views/Home-Details';
+import DetailScreen from '../views/HomeDetails/homeDetailScreen';
 
 interface DetailProps {
   navigation: any;

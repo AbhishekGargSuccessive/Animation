@@ -1,7 +1,7 @@
 import React, {useState} from 'react';
 import {useSelector} from 'react-redux';
 import {dummyData} from '../constants';
-import HomeScreen from '../views/Home';
+import HomeScreen from '../views/Home/HomeScreen';
 
 interface HomeModelProps {
   navigation: any;

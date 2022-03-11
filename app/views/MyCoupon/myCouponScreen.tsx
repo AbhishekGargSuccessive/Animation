@@ -1,5 +1,11 @@
 import React from 'react';
-import {FlatList, SafeAreaView, Text, TouchableOpacity, View} from 'react-native';
+import {
+  FlatList,
+  SafeAreaView,
+  Text,
+  TouchableOpacity,
+  View,
+} from 'react-native';
 import {useSelector} from 'react-redux';
 import {HeaderComponents} from '../../common';
 import {COLORS, constants, dummyData, icons, images} from '../../constants';

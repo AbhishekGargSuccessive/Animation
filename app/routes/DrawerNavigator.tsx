@@ -1,7 +1,7 @@
 import React from 'react';
-import CustomDrawer from '../views/Drawer_Navigation';
+import CustomDrawer from '../views/DrawerNavigation/drawerNavigationScreen';
 import {createDrawerNavigator} from '@react-navigation/drawer';
-import MainTab from './Tab_Navigator/TabNavigator';
+import MainTab from './tabNavigator/tabNavigator';
 import {LogBox} from 'react-native';
 
 LogBox.ignoreLogs([

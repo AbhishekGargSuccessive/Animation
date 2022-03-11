@@ -1,5 +1,5 @@
 import React from 'react';
-import DeliveryStatusScreen from '../views/Delivery_Status';
+import DeliveryStatusScreen from '../views/DeliveryStatus/deliveryStatusScreen';
 
 interface DeliveryModel {
   navigation: any;

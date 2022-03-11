@@ -1,5 +1,5 @@
 import React from 'react';
-import SettingScreen from '../views/Settings';
+import SettingScreen from '../views/Settings/settingScreen';
 
 interface SettingsProps {
   navigation: any;

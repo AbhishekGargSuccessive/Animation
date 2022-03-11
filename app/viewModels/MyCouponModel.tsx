@@ -1,5 +1,5 @@
 import React, {useState} from 'react';
-import MyCouponScreen from '../views/My_Coupon';
+import MyCouponScreen from '../views/MyCoupon/myCouponScreen';
 
 interface CouponModel {
   navigation: any;

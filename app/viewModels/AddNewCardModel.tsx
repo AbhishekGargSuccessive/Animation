@@ -1,5 +1,5 @@
 import React from 'react';
-import AddNewCardScreen from '../views/Add_New_Card';
+import AddNewCardScreen from '../views/AddNewCard/addNewCardScreen';
 
 interface AddNewCardProps {
   navigation: any;

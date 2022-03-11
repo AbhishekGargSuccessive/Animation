@@ -1,5 +1,5 @@
 import React, {useState} from 'react';
-import MyOrderScreen from '../views/My_Orders';
+import MyOrderScreen from '../views/MyOrders/myOrderScreen';
 
 interface OrderProps {
   navigation: any;

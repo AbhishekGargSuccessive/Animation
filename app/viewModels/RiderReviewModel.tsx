@@ -1,5 +1,5 @@
 import React from 'react';
-import RiderReviewScreen from '../views/Rider_Review';
+import RiderReviewScreen from '../views/RiderReview/riderReviewScreen';
 
 interface RiderProps {
   navigation: any;

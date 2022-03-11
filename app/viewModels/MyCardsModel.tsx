@@ -1,5 +1,5 @@
 import React, {useState} from 'react';
-import MyCardScreen from '../views/MY_CARDS';
+import MyCardScreen from '../views/MyCards/myCardScreen';
 
 interface CardsModel {
   navigation: any;

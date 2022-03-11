@@ -1,5 +1,11 @@
 import React from 'react';
-import {Image, SafeAreaView, ScrollView, Text, TouchableOpacity, View} from 'react-native';
+import {
+  SafeAreaView,
+  ScrollView,
+  Text,
+  TouchableOpacity,
+  View,
+} from 'react-native';
 import {HeaderComponents, TextInputs} from '../../common';
 import {constants, icons} from '../../constants';
 import styles from './styles';

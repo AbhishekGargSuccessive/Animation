@@ -1,5 +1,5 @@
 import React from 'react';
-import SuccessScreen from '../views/Success';
+import SuccessScreen from '../views/Success/successSceen';
 
 interface SuccessProps {
   navigation: any;

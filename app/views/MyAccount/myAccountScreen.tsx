@@ -1,5 +1,12 @@
 import React from 'react';
-import {FlatList, Image, SafeAreaView, Text, TouchableOpacity, View} from 'react-native';
+import {
+  FlatList,
+  Image,
+  SafeAreaView,
+  Text,
+  TouchableOpacity,
+  View,
+} from 'react-native';
 import {constants, dummyData, icons} from '../../constants';
 import RenderItems from './renderItems';
 import styles from './styles';

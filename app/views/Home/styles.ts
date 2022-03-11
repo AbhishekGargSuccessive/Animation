@@ -2,6 +2,9 @@ import {StyleSheet} from 'react-native';
 import {COLORS, FONTS, SIZES} from '../../constants';
 
 const styles = StyleSheet.create({
+  flex: {
+    flex: 1,
+  },
   colorcontainer: {
     flex: 1,
     backgroundColor: COLORS.white,
@@ -11,7 +14,6 @@ const styles = StyleSheet.create({
     alignItems: 'center',
     justifyContent: 'space-between',
     paddingVertical: 10,
-    // paddingHorizontal: 20
     marginHorizontal: 20,
   },
   menuIcon: {

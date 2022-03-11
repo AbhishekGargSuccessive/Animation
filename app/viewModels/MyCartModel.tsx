@@ -1,5 +1,5 @@
 import React from 'react';
-import MyCartScreen from '../views/MY_CART';
+import MyCartScreen from '../views/MyCart/myCartScreen';
 
 interface CartProps {
   navigation: any;
