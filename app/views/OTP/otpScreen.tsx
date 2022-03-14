@@ -1,6 +1,6 @@
 import React from 'react';
 import {Alert, SafeAreaView, TextInput, TouchableOpacity} from 'react-native';
-import {Text, View} from 'react-native-animatable';
+import {Text, View} from 'react-native';
 import {HeaderLogo} from '../../common';
 import {constants} from '../../constants';
 import styles from './styles';
