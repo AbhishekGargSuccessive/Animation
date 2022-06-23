@@ -1,5 +1,5 @@
 import React from 'react';
-import MainStack from './app/routes/stackNavigator';
+import MainStack from './app/routes/StackNavigator';
 import {Provider} from 'react-redux';
 import store from './app/redux/store';
 

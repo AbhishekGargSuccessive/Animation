@@ -1,5 +1,5 @@
 import React from 'react';
-import OTPScreen from '../views/otp/otpScreen';
+import OTPScreen from '../views/OTP/otpScreen';
 
 interface OTPModelProps {
   navigation: any;

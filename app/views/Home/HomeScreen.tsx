@@ -14,8 +14,8 @@ import {
 import {COLORS, constants, dummyData, icons, SIZES} from '../../constants';
 import MultiSlider from '@ptomasroos/react-native-multi-slider';
 import CategoryRenderItem from './categoryRenderItem';
-import FoodMennuRenderItem from './foodMenuRenderItem';
-import FooterFoodMenu from './footerRenderItem';
+import FoodMennuRenderItem from './FoodMenuRenderItem';
+import FooterFoodMenu from './FooterRenderItem';
 import {HeaderComponents} from '../../common';
 import styles from './styles';
 

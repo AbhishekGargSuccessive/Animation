@@ -1,7 +1,7 @@
 import React from 'react';
 import {NavigationContainer} from '@react-navigation/native';
 import {createNativeStackNavigator} from '@react-navigation/native-stack';
-import MainDrawer from './drawerNavigator';
+import MainDrawer from './DrawerNavigator';
 import SplashScreen from '../views/Splash/splashScreen';
 import {
   OnboardingViewModel,
